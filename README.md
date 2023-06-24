@@ -8,6 +8,10 @@ It has not been maintained for about 4 years so, i took my time and start workin
 Now it's work with the latest version of **Rivendell** (version 4)
 Also with PHP version over **PHP5.1**
 
+## Video
+Made a simple video to show how it's working
+https://youtu.be/bk9BWWZLXJg
+
 ## Importaint info
 To be able to use voicetrack recording. You need HTTPS protocol on your server.
 
