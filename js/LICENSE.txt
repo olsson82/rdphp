@@ -1,0 +1,40 @@
+
+The Web Recorder is redistributed from under the MIT License:
+https://github.com/higuma/web-audio-recorder-js
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+
+
+Ogg Vorbis encoder part of the library uses JavaScript-converted code of libogg and libvorbis. 
+They are released under Xiph's BSD-like license. 
+Ogg Vorbis encoder part of this library follows the same license (see link below).
+
+http://www.xiph.org/licenses/bsd/
+
+
+MP3 encoder part of this library uses JavaScript-converted code of LAME. 
+LAME is licensed under the LGPL. MP3 encoder part of this library follows the same license (see link below).
+
+http://lame.sourceforge.net/about.php
+
+

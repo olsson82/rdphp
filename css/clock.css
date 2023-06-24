@@ -1,0 +1,387 @@
+#working {
+
+  width: 100%;
+  height: 100%;
+  background: rgba(180, 180, 180, 0.6);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+
+}
+
+#working > div {
+
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  background: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -40px;
+
+}
+
+body {
+
+  background: lightgrey;
+  padding: 20px 5px;
+
+}
+
+#content {
+
+  min-width: 890px;
+  max-width: 1024px;
+  overflow: auto;
+
+}
+
+h2 {
+
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  font-variant: small-caps;
+  padding-bottom: 8px;
+
+}
+
+#editor h2 {
+
+  width: 300px;
+
+}
+
+.rivclock {
+
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-left: 5px;
+
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  -moz-user-select: none;
+
+}
+
+.spacer {
+
+  clear: both;
+
+}
+
+#clocks, #events {
+
+  float: left;
+  width: 200px;
+  overflow-y: auto;
+  height: 85vh;
+  overflow-x: auto;
+
+}
+
+#events {
+
+  float: right;
+
+}
+
+#events .event, #editor .event {
+
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+
+  -moz-user-select: none;
+
+  padding: 5px;
+
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-left: 5px;
+
+}
+
+#editor .event {
+
+ float: left;
+ width: 80%;
+ clear: both;
+
+}
+
+#clocks a {
+
+  text-align: center;
+
+  -moz-user-select: none;
+  text-decoration: none;  
+
+  color: black;
+
+}
+
+/* Editor */
+#editor {
+
+  min-width: 460px;
+  height: 85vh;
+  overflow: auto;
+  float: left;
+  padding: 10px;
+  padding-top: 0px;
+  border-right: 1px solid black;
+
+}
+
+#editor label {
+
+  float: left;
+  font-weight: bold;
+  clear: left;
+  width: 100px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  -moz-user-select: none;
+
+}
+
+#editor input {
+
+  float: left;
+  clear: right;
+  height: 1em;
+  width: 240px;
+
+}
+
+#start, #end {
+
+  background: green;
+  color: white;
+  border: 1px solid black;
+  padding: 10px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  width: 90%;
+  float: left;
+  clear: both;
+
+}
+
+#start.selected, #end.selected {
+
+  border: 5px solid skyblue;
+
+}
+
+#end {
+
+  background: red;
+
+}
+
+#start p, #end p {
+
+  pointer-events: none;
+  height: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+div.clockName {
+
+  background: white;
+  width: 100px;
+  height: 40px;
+
+  border: 1px solid black;
+
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+
+  -moz-user-select: none;
+  float: left;
+  margin-left: 60px;
+  margin-top: -67px;
+
+  padding: 5px;
+
+}
+
+h2.left {
+
+  text-align: left;
+  margin-left: 10px;
+
+}
+
+/* Services */
+#services {
+
+  margin-bottom: 12px;
+  margin-left: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px black solid;
+
+}
+
+#services select, input {
+
+  height: 2em;
+
+}
+
+#services label {
+
+  font-weight: bold;
+
+}
+
+/* Grid Clear, Save */
+#gridform {
+
+  float:right;
+
+}
+
+#gridform button {
+
+  width: 100px;
+  height: 2em;
+
+}
+
+button.return {
+
+  background: blue;
+  color: white;
+
+}
+
+button.delete {
+
+  background: red;
+  color: white;
+
+}
+
+button.empty {
+
+  background: #FF7878;
+
+}
+
+button.save {
+
+  background: #E1F5C4;
+
+}
+
+button.saveas {
+
+  background: darkgreen;
+  color: white;
+
+}
+
+.post {
+
+  height: 5px;
+  padding: 2px;
+  border: 1px dotted black;
+  background: lightgreen;
+  width: 90%;
+  float: left;
+  clear: both;
+
+  margin-top: -10px;
+  margin-bottom: 5px;
+
+}
+
+.eventName, .eventProperties, .eventTime {
+
+  width: 75%;
+  margin: 0 auto;
+
+}
+
+#post.selected {
+
+  height: 75px;
+  background: yellow;
+  border: 5px solid skyblue;
+
+}
+
+div.event.selected {
+
+  border: 5px solid skyblue !important;
+
+}
+  
+div.event.selected > div {
+
+  pointer-events: none;
+
+}
+
+input.labelOnly {
+
+  height: 12px;
+  width: 80%;
+  padding: 8px;
+  border: 0px solid black;
+  background: none;
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+
+  -moz-user-select: none;
+
+}
+
+#editor input.normal {
+
+  background: white;
+
+}
+
+#editor input.nearlyFull {
+
+  background: yellow;
+
+}
+
+#editor input.full {
+
+  background: lightgreen;
+
+}
+
+#editor input.overLimit {
+
+  background: red;
+
+}
+
