@@ -189,7 +189,7 @@
             LINK_START_TIME, LINK_LENGTH, EXT_START_TIME, EXT_CART_NAME
             FROM $logTableName log
             LEFT JOIN CART ON log.CART_NUMBER=CART.NUMBER
-            WHERE START_TIME BETWEEN $lowerMS AND $upperMS";
+            WHERE START_TIME BETWEEN $lowerMS AND $upperMS ORDER BY START_TIME ASC";
 
     }
     else {
@@ -201,7 +201,7 @@
             FROM LOG_LINES log
             LEFT JOIN CART ON log.CART_NUMBER=CART.NUMBER
             WHERE log.LOG_NAME='$logname' AND
-            START_TIME BETWEEN $lowerMS AND $upperMS";
+            START_TIME BETWEEN $lowerMS AND $upperMS ORDER BY START_TIME ASC";
     }
 
     $stmt = $PDO->prepare($sql);
