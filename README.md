@@ -31,3 +31,20 @@ You need to have this script on the same server as you have your Rivendell serve
 
 ## Report bug
 If you find something that i have missed, let me know!
+
+## How to install (Debian system)
+First login as root in the terminal with **su -l** and enter your root password.
+
+Then do apt update & apt upgrade to update the machine.
+
+Apache is already installed on the rivendell machine so we need to install php
+
+**apt install php php-{common,mysql,xml,xmlrpc,curl,gd,imagick,cli,dev,imap,mbstring,opcache,soap,zip,intl}** 
+
+Do a restart of apache **systemctl restart apache2**
+
+Then go to the apache folder **cd /var/www/html** and delete everything inside.
+
+Now clone the git folder: **git clone https://github.com/olsson82/rdphp.git .** (Don't forget the last . so it will clone inside html folder.
+
+Now it should be up and running
