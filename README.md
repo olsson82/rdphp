@@ -1,5 +1,7 @@
 # Rivendell Logmanager online
 
+**This will not be maintained any more. I working on a complete new system avalible over here : https://github.com/olsson82/rivendellweb**
+
 This script was created by **Brian McGlynn** for to use with Rivendell Radio Automation, so all credits goes to him.
 The original script can be found here: https://github.com/bpm1992/rivendell/tree/rdweb/web/rdphp
 
